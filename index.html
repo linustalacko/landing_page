@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="Norse-Bold (1).otf">
+    <script src="index.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="main">
+        <div id="left">
+            <img id='fern' src="plant.jpg" alt="Fern Picture">
+            <div id="brand">
+                <img src="odin.png" alt="Odin Brand">
+                <h3 id="title">ODIN</h3>
+            </div>
+        </div>
+        <div id="right">
+            <div id="top">
+                <p id="top-section">This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams <br> Sign up <em>now</em> to get started.</p>
+                <br>
+                <p id="youwanto">You <em>know</em> you want to.</p>
+            </div>
+            <div id="forms">
+                <div id="letsgo">
+                    <p>Let's do this!</p>
+                </div>
+                <form action="post">
+                        <div id="lastfirst">
+                            <div id="first">
+                                <span>
+                                    <label for="firstname">First Name</label>
+                                    <input type="text" id="firstname"  name="firstname">
+                                </span>
+                            </div>
+                            <div id="last">
+                                <span>
+                                    <label for="lastname">Last Name</label>
+                                    <input type="text" id="lastname" name="lastname">
+                                </span>
+                            </div>
+                        </div>
+                        <div id="emailphone">
+                            <div id="email">
+                                <span>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email"  name="email">
+                                </span>
+                            </div>
+                            <div id="phone">
+                                <span>
+                                    <label for="Phone">Phone</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </span>
+                            </div>
+                        </div>
+                        <div id="password">
+                            <div id="firstone">
+                                <span>
+                                    <label for="firsts">Password</label>
+                                    <input type="password" id="firsts"  name="firsts">
+                                    <span id = "message" style="color:red; font-size: 0.9rem;"> </span>
+                                </span>
+                            </div>
+                            <div id="lasts">
+                                <span>
+                                    <label for="lasts">Confirm Password</label>
+                                    <input type="password" id="lastss" name="lasts">
+                                    <span id = "messages" style="color:red; font-size: 0.9rem;"> </span>
+                                </span>
+                            </div>
+                        </div>
+                </form>
+            </div>
+            <div id="bottom">
+                <form action="post" onsubmit="return verifyPassword()" >
+                    <div id="button">
+                        <button type="submit">Create account</button>
+                    </div>
+                </form>
+                <div id="login">
+                    <p>Already have an account? <a href="https://www.theodinproject.com/paths/foundations/courses/foundations">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
